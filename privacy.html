@@ -8,76 +8,68 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
     <div class="blob blob-1"></div>
-    
+    <div class="blob blob-2"></div>
+
     <header>
         <div class="container">
             <nav>
-                <a href="index.html" class="logo">SendSnap</a>
+                <a href="index.html" class="logo">SendSnap.</a>
                 <div class="nav-links">
                     <a href="index.html#features">Features</a>
-                    <a href="index.html#how-it-works">How it Works</a>
-                    <a href="privacy.html" class="active">Privacy</a>
-                    <a href="index.html" class="btn-primary">Download App</a>
+                    <a href="index.html#how-it-works">How It Works</a>
+                    <a href="privacy.html" class="active" style="color: var(--primary)">Privacy</a>
+                    <a href="index.html" class="btn-primary">Download</a>
                 </div>
             </nav>
         </div>
     </header>
 
-    <main class="container">
-        <div class="privacy-content">
-            <h1>Privacy Policy</h1>
-            <p><strong>Last Updated: April 14, 2026</strong></p>
-            <p>Welcome to <strong>SendSnap - Fast WiFi File Transfer</strong>. Your privacy is critically important to us. This Privacy Policy explains how we collect, use, and protect your information when you use our mobile application (the "Service").</p>
+    <main class="container" style="padding: 6rem 1rem;">
+        <div class="feature-card" style="max-width: 900px; margin: 0 auto; text-align: left;">
+            <h1 style="font-size: 2.5rem; margin-bottom: 2rem;">Privacy Policy</h1>
+            <p style="margin-bottom: 2rem;"><strong>Last Updated: April 21, 2026</strong></p>
             
-            <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 2rem 0;">
-
-            <h2>1. Data Collection and Usage</h2>
-            <h3>Personal Information</h3>
-            <p>SendSnap does <strong>not</strong> collect, store, or transmit any personal information (such as your name, email address, or phone number) to our servers.</p>
-
-            <h3>File Transfers</h3>
-            <p>All file transfers performed through SendSnap occur directly between devices over your local WiFi network (Peer-to-Peer). We do <strong>not</strong> upload your files to any cloud server or third-party service. Your data stays entirely within your local environment.</p>
-
-            <h3>Local Discovery</h3>
-            <p>The app uses mDNS (multicast DNS) to discover other devices on the same network. This discovery process is local and does not involve any external tracking.</p>
-
-            <h2>2. Permissions Required</h2>
-            <p>To provide our service, SendSnap requires the following permissions on your device:</p>
-            <ul>
-                <li><strong>Storage / Photos & Videos</strong>: Necessary to select files to send and to save received files to your device.</li>
-                <li><strong>WiFi / Network State</strong>: Required to establish a connection between devices for file transfer.</li>
-                <li><strong>Nearby Devices / Location</strong>: (Android 12+) Required by the system to scan for and connect to other devices on the same local network. We do <strong>not</strong> track your physical location.</li>
+            <p style="margin-bottom: 1.5rem;">Welcome to <strong>SendSnap - Fast Peer-to-Peer File Transfer</strong>. Your privacy is our highest priority. This policy detail explains how we protect your data.</p>
+            
+            <h2 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--primary)">1. Data Localism & Sharing</h2>
+            <p style="margin-bottom: 1rem;">SendSnap is built on a 100% Peer-to-Peer (P2P) engine. This means your files never leave your local WiFi network. We do not have servers that store your files; your data moves directly from your device to the device you choose.</p>
+            
+            <h2 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--primary)">2. Collection of Information</h2>
+            <h3>Personal Data</h3>
+            <p style="margin-bottom: 1rem;">We do <strong>not</strong> collect name, email, or any identifiable personal information. The "Display Name" you set in the app is stored only on your device and the devices you connect with locally.</p>
+            
+            <h3>Usage Data & Ads</h3>
+            <p style="margin-bottom: 1rem;">We use <strong>Google AdMob</strong> to display ads. AdMob may collect certain data, such as your Device ID and approximate location, to serve relevant advertisements and measure performance. You can find Google’s Privacy Policy <a href="https://policies.google.com/privacy" style="color: var(--primary)">here</a>.</p>
+            
+            <h2 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--primary)">3. Permissions</h2>
+            <p style="margin-bottom: 1rem;">To function correctly, the app requires access to:</p>
+            <ul style="margin-left: 2rem; margin-bottom: 1rem;">
+                <li><strong>Nearby Devices / Bluetooth</strong>: To discover and connect to peers.</li>
+                <li><strong>Location</strong>: Required by Android system for WiFi/Bluetooth discovery.</li>
+                <li><strong>Storage</strong>: To select the files you want to share and save received files.</li>
             </ul>
-
-            <h2>3. Third-Party Services (Advertising)</h2>
-            <p>We use <strong>Google AdMob</strong> to display advertisements in the app. These ads help us keep the service free for everyone.</p>
-            <ul>
-                <li><strong>AdMob Data</strong>: Google AdMob may collect and use certain data, including your device's Advertising ID, IP address, and technical information about your device, to serve personalized or non-personalized ads.</li>
-                <li><strong>Privacy Links</strong>: For more information on how Google uses your data, please visit <a href="https://policies.google.com/privacy" style="color: var(--accent-secondary)">Google’s Privacy & Terms</a>.</li>
-            </ul>
-
-            <h2>4. Children’s Privacy</h2>
-            <p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13.</p>
-
-            <h2>5. Security</h2>
-            <p>We value your trust in using our Peer-to-Peer transfer service. Since transfers are local to your WiFi network, they are as secure as the network itself. We recommend using a password-protected WiFi network for maximum security.</p>
-
-            <h2>6. Changes to This Privacy Policy</h2>
-            <p>We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes.</p>
-
-            <h2>7. Contact Us</h2>
-            <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:</p>
-            <p><strong>nejiyoussef081@gmail.com</strong></p>
+            
+            <h2 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--primary)">4. Security</h2>
+            <p style="margin-bottom: 1rem;">As a local-only sharing app, your security is tied to your local WiFi network. We recommend sharing only on trusted, password-protected networks.</p>
+            
+            <h2 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--primary)">5. Contact</h2>
+            <p style="margin-bottom: 1rem;">If you have any questions, reach out to us at: <a href="mailto:nejiyoussef081@gmail.com" style="color: var(--primary)">nejiyoussef081@gmail.com</a></p>
         </div>
     </main>
 
     <footer>
-        <div class="container">
+        <div class="container footer-content">
             <p>&copy; 2026 SendSnap App. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>
