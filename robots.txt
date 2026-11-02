@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# AI Crawlers & LLM Search (ChatGPT, Perplexity, Google-Extended, Claude, Applebot)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://youssef0356.github.io/sendsnap_website/sitemap.xml

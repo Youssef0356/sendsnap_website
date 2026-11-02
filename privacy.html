@@ -3,68 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy | SendSnap</title>
+    <title>Privacy Policy - SendSnap</title>
+    
+    <!-- SEO & Compliance Meta -->
+    <meta name="description" content="SendSnap Privacy Policy. Learn how SendSnap protects your privacy with 100% offline peer-to-peer file transfer and zero cloud data storage.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://youssef0356.github.io/sendsnap_website/privacy.html">
+
+    <link rel="icon" type="image/png" href="assets/app_icon.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Lucide Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;850&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
-    <div class="blob blob-1"></div>
-    <div class="blob blob-2"></div>
+    <div class="ambient-bg" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+    </div>
 
-    <header>
+    <!-- Navigation Bar -->
+    <header id="main-header">
         <div class="container">
-            <nav>
-                <a href="index.html" class="logo">SendSnap.</a>
+            <nav aria-label="Main Navigation">
+                <a href="index.html" class="logo-wrapper">
+                    <img src="assets/app_icon.png" alt="SendSnap Icon" class="logo-icon">
+                    <span class="logo-text">SendSnap</span>
+                </a>
+                
                 <div class="nav-links">
                     <a href="index.html#features">Features</a>
-                    <a href="index.html#how-it-works">How It Works</a>
-                    <a href="privacy.html" class="active" style="color: var(--primary)">Privacy</a>
-                    <a href="index.html" class="btn-primary">Download</a>
+                    <a href="index.html#comparison">Compare</a>
+                    <a href="index.html#faq">FAQ</a>
+                    <a href="privacy.html" class="active">Privacy</a>
+                    <a href="terms.html">Terms</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.the356company.sendsnap" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                        Download
+                    </a>
                 </div>
             </nav>
         </div>
     </header>
 
-    <main class="container" style="padding: 6rem 1rem;">
-        <div class="feature-card" style="max-width: 900px; margin: 0 auto; text-align: left;">
-            <h1 style="font-size: 2.5rem; margin-bottom: 2rem;">Privacy Policy</h1>
-            <p style="margin-bottom: 2rem;"><strong>Last Updated: April 21, 2026</strong></p>
-            
-            <p style="margin-bottom: 1.5rem;">Welcome to <strong>SendSnap - Fast Peer-to-Peer File Transfer</strong>. Your privacy is our highest priority. This policy detail explains how we protect your data.</p>
-            
-            <h2 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--primary)">1. Data Localism & Sharing</h2>
-            <p style="margin-bottom: 1rem;">SendSnap is built on a 100% Peer-to-Peer (P2P) engine. This means your files never leave your local WiFi network. We do not have servers that store your files; your data moves directly from your device to the device you choose.</p>
-            
-            <h2 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--primary)">2. Collection of Information</h2>
-            <h3>Personal Data</h3>
-            <p style="margin-bottom: 1rem;">We do <strong>not</strong> collect name, email, or any identifiable personal information. The "Display Name" you set in the app is stored only on your device and the devices you connect with locally.</p>
-            
-            <h3>Usage Data & Ads</h3>
-            <p style="margin-bottom: 1rem;">We use <strong>Google AdMob</strong> to display ads. AdMob may collect certain data, such as your Device ID and approximate location, to serve relevant advertisements and measure performance. You can find Google’s Privacy Policy <a href="https://policies.google.com/privacy" style="color: var(--primary)">here</a>.</p>
-            
-            <h2 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--primary)">3. Permissions</h2>
-            <p style="margin-bottom: 1rem;">To function correctly, the app requires access to:</p>
-            <ul style="margin-left: 2rem; margin-bottom: 1rem;">
-                <li><strong>Nearby Devices / Bluetooth</strong>: To discover and connect to peers.</li>
-                <li><strong>Location</strong>: Required by Android system for WiFi/Bluetooth discovery.</li>
-                <li><strong>Storage</strong>: To select the files you want to share and save received files.</li>
+    <main class="legal-container">
+        <article class="legal-card">
+            <h1>Privacy Policy</h1>
+            <span class="meta">Effective Date: November 2, 2026 • Version 2.2.1</span>
+
+            <p>Welcome to <strong>SendSnap</strong> (referred to as "we", "our", or "the App"), developed by <strong>The 356 Company</strong>. We are committed to protecting your privacy. This Privacy Policy outlines our principles regarding user data, permissions, and advertising compliance in accordance with Google Play Developer Policies and global privacy regulations.</p>
+
+            <h2>1. Core Philosophy: 100% Peer-to-Peer & Offline Localism</h2>
+            <p>SendSnap is architected from the ground up as a decentralized, direct peer-to-peer (P2P) file transfer tool. <strong>We do not maintain cloud servers that store, inspect, relay, or duplicate your files.</strong></p>
+            <p>When you transfer files, documents, photos, audio, or videos, the data moves straight from your device to the target device across your local Wi-Fi network or mobile hotspot. Your files never pass through our servers or any intermediate cloud infrastructure.</p>
+
+            <h2>2. Information We Do NOT Collect</h2>
+            <ul>
+                <li><strong>No User Accounts:</strong> We do not require you to register, create an account, or log in.</li>
+                <li><strong>No Personal Identifiers:</strong> We do not ask for or collect your name, phone number, email address, or billing info.</li>
+                <li><strong>No File Inspection or Metadata Logging:</strong> We do not analyze the filenames, contents, or metadata of the items you share.</li>
             </ul>
-            
-            <h2 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--primary)">4. Security</h2>
-            <p style="margin-bottom: 1rem;">As a local-only sharing app, your security is tied to your local WiFi network. We recommend sharing only on trusted, password-protected networks.</p>
-            
-            <h2 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--primary)">5. Contact</h2>
-            <p style="margin-bottom: 1rem;">If you have any questions, reach out to us at: <a href="mailto:nejiyoussef081@gmail.com" style="color: var(--primary)">nejiyoussef081@gmail.com</a></p>
-        </div>
+
+            <h2>3. Android Permissions & Purpose of Use</h2>
+            <p>To enable offline discovery and transfer capabilities on modern Android operating systems, SendSnap requests specific runtime permissions. Each permission is used solely for core functionality:</p>
+
+            <h3>A. Camera Permission (<code>android.permission.CAMERA</code>)</h3>
+            <p>Used exclusively to scan the receiver's encrypted on-screen QR code during the device pairing sequence. The camera feed is processed in real time entirely on your device. SendSnap does <strong>not</strong> capture, save, record, or transmit photos or videos from your camera.</p>
+
+            <h3>B. Storage & Media Permissions (<code>READ_MEDIA_IMAGES</code>, <code>READ_MEDIA_VIDEO</code>, <code>READ_MEDIA_AUDIO</code>, <code>MANAGE_EXTERNAL_STORAGE</code>)</h3>
+            <p>SendSnap requires access to device storage to allow you to select photos, videos, music, and documents to send, as well as to write and save received files to your device's download folder. We only access files you explicitly choose to transfer.</p>
+
+            <h3>C. Wi-Fi & Network State (<code>ACCESS_WIFI_STATE</code>, <code>CHANGE_WIFI_STATE</code>, <code>NEARBY_WIFI_DEVICES</code>)</h3>
+            <p>Required to detect local network configuration, discover nearby peer devices running SendSnap on the same local subnet, and establish the direct high-speed HTTP streaming socket.</p>
+
+            <h2>4. Third-Party Advertising & Advertising ID (<code>AD_ID</code>)</h2>
+            <p>SendSnap uses <strong>Google AdMob</strong> (Google Mobile Ads SDK) to display in-app advertisements that support ongoing development and maintenance. Google AdMob may collect and process certain device information, including:</p>
+            <ul>
+                <li>The Google Advertising Identifier (<code>com.google.android.gms.permission.AD_ID</code>) for personalized or non-personalized advertising, analytics, and fraud prevention.</li>
+                <li>Coarse device parameters (device model, operating system version, carrier, and general location).</li>
+            </ul>
+            <p>For more details on how Google manages and protects ad data, please review the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy & Terms</a>.</p>
+
+            <h2>5. Data Security</h2>
+            <p>Because SendSnap operates exclusively over your local Wi-Fi or hotspot connection, your files remain within your physical radio perimeter. We recommend initiating file transfers over private, password-secured Wi-Fi networks or direct personal hotspots.</p>
+
+            <h2>6. Children's Privacy</h2>
+            <p>SendSnap does not knowingly collect or solicit personal information from children under the age of 13. The application is a general-purpose utility for local file management and transfer.</p>
+
+            <h2>7. Updates to This Privacy Policy</h2>
+            <p>We may periodically update this policy to reflect application enhancements or regulatory changes. Any modifications will be posted to this page with an updated revision date.</p>
+
+            <h2>8. Contact Us</h2>
+            <p>If you have questions, feedback, or concerns regarding this Privacy Policy or SendSnap's security practices, please contact us at:</p>
+            <p><strong>The 356 Company</strong><br>
+            Email: <a href="mailto:nejiyoussef081@gmail.com">nejiyoussef081@gmail.com</a><br>
+            Website: <a href="https://youssef0356.github.io/sendsnap_website/">https://youssef0356.github.io/sendsnap_website/</a></p>
+        </article>
     </main>
 
+    <!-- Footer -->
     <footer>
         <div class="container footer-content">
-            <p>&copy; 2026 SendSnap App. All rights reserved.</p>
+            <div class="footer-brand">
+                <a href="index.html" class="logo-wrapper">
+                    <img src="assets/app_icon.png" alt="SendSnap Icon" class="logo-icon" style="width: 32px; height: 32px;">
+                    <span class="logo-text" style="font-size: 1.25rem;">SendSnap</span>
+                </a>
+            </div>
+
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#features">Features</a>
+                <a href="privacy.html" class="active">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="mailto:nejiyoussef081@gmail.com">Support</a>
+            </div>
+            
+            <p>&copy; 2026 The 356 Company. All rights reserved.</p>
         </div>
     </footer>
 
