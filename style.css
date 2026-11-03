@@ -239,6 +239,53 @@ nav {
     letter-spacing: -0.2px;
 }
 
+.btn-windows {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: linear-gradient(135deg, #0A58CA 0%, #0078D4 100%);
+    color: #FFFFFF !important;
+    padding: 0.75rem 1.6rem;
+    border-radius: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    box-shadow: 0 8px 24px rgba(0, 120, 212, 0.28);
+    transition: all 0.25s ease;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.btn-windows:hover {
+    background: linear-gradient(135deg, #004db8 0%, #006ec4 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 14px 34px rgba(0, 120, 212, 0.42);
+}
+
+.btn-windows svg {
+    width: 22px;
+    height: 22px;
+}
+
+.btn-windows .btn-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 1.15;
+}
+
+.btn-windows .btn-text-small {
+    font-size: 0.70rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.btn-windows .btn-text-large {
+    font-size: 1.02rem;
+    font-weight: 750;
+    letter-spacing: -0.2px;
+}
+
 .btn-secondary {
     display: inline-flex;
     align-items: center;
